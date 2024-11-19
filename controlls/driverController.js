@@ -1,7 +1,7 @@
 const driver = require('../models/driver');
 const Driver = require('../models/driver');
 const Trip = require('../models/Trip');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken')
 
 // Register a new driver with routes
